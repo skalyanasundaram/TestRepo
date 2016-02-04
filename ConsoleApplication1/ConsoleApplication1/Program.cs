@@ -11,12 +11,17 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             HelloWorld();
-            Console.ReadKey();
+            WaitForKey();
         }
 
         static void HelloWorld()
         {
             Console.WriteLine("Hello, World");
+        }
+        
+        static void WaitForKey()
+        {
+            Console.ReadKey();
         }
     }
 }
