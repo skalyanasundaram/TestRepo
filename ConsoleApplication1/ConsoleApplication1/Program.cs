@@ -12,6 +12,7 @@ namespace ConsoleApplication1
         {
             HelloWorld();
             WaitForKey();
+            // Test
         }
 
         static void HelloWorld()
